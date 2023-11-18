@@ -9,7 +9,7 @@ using HTTP
 
 # ╔═╡ 5f42f335-646a-4189-8249-e73697ed84be
 function handler(query)
-	return HTTP.Response(200, String(query))
+	return HTTP.Response(200)#, String(query))
 end
 
 # ╔═╡ abefa6e0-519f-45d7-9e86-2170e9cd3ce8
